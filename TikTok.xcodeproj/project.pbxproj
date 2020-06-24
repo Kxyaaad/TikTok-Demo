@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0406347C24A059E800536EB9 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406347B24A059E800536EB9 /* VideoCell.swift */; };
+		0406347E24A0B34D00536EB9 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406347D24A0B34D00536EB9 /* helper.swift */; };
+		04140E7124A3517B00563D07 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04140E7024A3517B00563D07 /* Comment.swift */; };
+		04140E7324A3598A00563D07 /* CommnetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04140E7224A3598A00563D07 /* CommnetController.swift */; };
+		0432459624A2F39C0037B218 /* ScaleAnimateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432459524A2F39C0037B218 /* ScaleAnimateButton.swift */; };
 		85DEF5B2A2C3981E880233FD /* Pods_TikTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86677E0CA40055E968736AFA /* Pods_TikTok.framework */; };
 		8849FEAF249DB82B008CD245 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849FEAE249DB82B008CD245 /* Feed.swift */; };
 		8849FEB4249DC298008CD245 /* TikTokNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8849FEB3249DC298008CD245 /* TikTokNetWork.swift */; };
@@ -19,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0406347B24A059E800536EB9 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		0406347D24A0B34D00536EB9 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		04140E7024A3517B00563D07 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		04140E7224A3598A00563D07 /* CommnetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommnetController.swift; sourceTree = "<group>"; };
+		0432459524A2F39C0037B218 /* ScaleAnimateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimateButton.swift; sourceTree = "<group>"; };
 		864E6F1A5E7788894570F119 /* Pods-TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikTok.debug.xcconfig"; path = "Target Support Files/Pods-TikTok/Pods-TikTok.debug.xcconfig"; sourceTree = "<group>"; };
 		86677E0CA40055E968736AFA /* Pods_TikTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8849FEAE249DB82B008CD245 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
@@ -46,10 +56,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0432459424A2F3740037B218 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0432459524A2F39C0037B218 /* ScaleAnimateButton.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		8849FEB0249DB845008CD245 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				8849FEAE249DB82B008CD245 /* Feed.swift */,
+				04140E7024A3517B00563D07 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -58,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				887A47FA2494EC8E00175D25 /* ViewController.swift */,
+				0406347B24A059E800536EB9 /* VideoCell.swift */,
+				04140E7224A3598A00563D07 /* CommnetController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +113,7 @@
 		887A47F52494EC8E00175D25 /* TikTok */ = {
 			isa = PBXGroup;
 			children = (
+				0432459424A2F3740037B218 /* Library */,
 				8849FEB0249DB845008CD245 /* Model */,
 				8849FEB2249DB878008CD245 /* View */,
 				8849FEB1249DB857008CD245 /* Controller */,
@@ -100,6 +122,7 @@
 				887A47FF2494EC8F00175D25 /* Assets.xcassets */,
 				887A48042494EC8F00175D25 /* Info.plist */,
 				8849FEB3249DC298008CD245 /* TikTokNetWork.swift */,
+				0406347D24A0B34D00536EB9 /* helper.swift */,
 			);
 			path = TikTok;
 			sourceTree = "<group>";
@@ -238,9 +261,14 @@
 			files = (
 				887A47FB2494EC8E00175D25 /* ViewController.swift in Sources */,
 				8849FEAF249DB82B008CD245 /* Feed.swift in Sources */,
+				0406347E24A0B34D00536EB9 /* helper.swift in Sources */,
 				887A47F72494EC8E00175D25 /* AppDelegate.swift in Sources */,
 				887A47F92494EC8E00175D25 /* SceneDelegate.swift in Sources */,
+				04140E7324A3598A00563D07 /* CommnetController.swift in Sources */,
 				8849FEB4249DC298008CD245 /* TikTokNetWork.swift in Sources */,
+				0432459624A2F39C0037B218 /* ScaleAnimateButton.swift in Sources */,
+				04140E7124A3517B00563D07 /* Comment.swift in Sources */,
+				0406347C24A059E800536EB9 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG6XQ82574;
+				DEVELOPMENT_TEAM = W4PUZ6QQ38;
 				INFOPLIST_FILE = TikTok/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QG6XQ82574;
+				DEVELOPMENT_TEAM = W4PUZ6QQ38;
 				INFOPLIST_FILE = TikTok/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
